@@ -11,7 +11,7 @@ const NewsItem = (props) => {
                     </span>
                 </div>
                 <a href={newsUrl} target='_blank' rel="noreferrer">
-                    <img src={!imageUrl ? 'https://images.moneycontrol.com/static-mcnews/2023/08/sensexdown_niftydown-1-770x433.jpg' : imageUrl} className="card-img-top" alt="..." />
+                    <img src={!imageUrl ? 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Image_not_available.png' : imageUrl} className="card-img-top" alt="..." />
                 </a>
                 <div className="card-body">
                     <h5 className="card-title">{title}...</h5>
